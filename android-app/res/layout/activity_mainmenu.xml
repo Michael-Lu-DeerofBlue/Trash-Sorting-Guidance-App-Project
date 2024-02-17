@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/statusField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Welcome to Swarthmore Trash Sorter" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trash Search Using Multiple Choice"
+            android:gravity="center"
+            android:onClick="onMultipleChoiceButtonClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trash Search Using Search Bar"
+            android:gravity="center"
+            android:onClick="onSearchButtonClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send a Feedback"
+            android:gravity="center"
+            android:onClick="onFeedbackButtonClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See Location of Nearby Facilities"
+            android:gravity="center"
+            android:onClick="onLocationButtonClick"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
