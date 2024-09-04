@@ -21,8 +21,8 @@ This project is a **trash-sorting guidance app** developed for **Swarthmore’s 
 
 ### Screenshots:
 
-![Main Menu](https://github.com/Michael-Lu-DeerofBlue/Trash-Sorting-Guidance-App-Project/Screenshot1.png)  
+![Main Menu](https://github.com/Michael-Lu-DeerofBlue/Trash-Sorting-Guidance-App-Project/blob/main/Screenshot1.png)  
 _Main menu with options for different trash search methods and feedback._
 
-![Trash Search Example](https://github.com/Michael-Lu-DeerofBlue/Trash-Sorting-Guidance-App-Project/Screenshot1.png)  
+![Trash Search Example](https://github.com/Michael-Lu-DeerofBlue/Trash-Sorting-Guidance-App-Project/blob/main/Screenshot2.png)  
 _Example of searching for trash category for an item._
