@@ -91,8 +91,8 @@ public class LocationSearchActivity extends AppCompatActivity {
                     JSONArray facilities = jo.getJSONArray("facilities");
                     if (facilities.length() > 0) {
                         JSONObject nearestFacility = facilities.getJSONObject(0);
-                        message = "Nearest Facility: " + nearestFacility.getString("name") +
-                                  "\nDistance: " + nearestFacility.getDouble("distance") + " km";
+                        message = nearestFacility.getString("name") +
+                                  \n + nearestFacility.getDouble("distance") + " miles";
                     } else {
                         message = "No facilities found nearby.";
                     }
